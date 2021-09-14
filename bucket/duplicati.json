@@ -1,0 +1,10 @@
+{
+    "version": "2.0.6.3",
+    "url": "https://updates.duplicati.com/beta/duplicati-2.0.6.3_beta_2021-06-17-x64.msi",
+    "shortcuts": [
+        [
+            "Duplicati.GUI.TrayIcon.exe",
+            "Duplicati"
+        ]
+    ]
+}

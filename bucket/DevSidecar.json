@@ -1,0 +1,29 @@
+{
+    "homepage": "https://github.com/docmirror/dev-sidecar",
+    "version": "1.6.1",
+    "url": "https://github.com/docmirror/dev-sidecar/releases/download/v1.6.1/DevSidecar-1.6.1.exe#/dl.7z",
+    "hash": "2c8f010d587bead92790ce87ebe515d98725193cee86e8374bbe4447b748d6ab",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
+        ]
+    },
+    "bin": "dev-sidecar.exe",
+    "shortcuts": [
+        [
+            "dev-sidecar.exe",
+            "dev-sidecar"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/docmirror/dev-sidecar"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/docmirror/dev-sidecar/releases/download/v$version/DevSidecar-$version.exe#/dl.7z"
+            }
+        }
+    }
+}

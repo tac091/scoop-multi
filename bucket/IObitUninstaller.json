@@ -1,0 +1,15 @@
+{
+    "version": "10.6.0.6",
+    "description": "Completely Uninstall Unwanted Software, Windows Apps & Browser Plug-ins",
+    "homepage": "https://www.iobit.com/",
+    "url": "https://cdn.iobit.com/dl/iobituninstaller.exe#/dl.7z",
+    "hash": "4b1e60d0f18fd73d263ade248969d811aaab1abe7d69e4f1cbeaf9d1be1a83b8",
+    "innosetup": true,
+    "bin": "IObitUninstaler.exe",
+    "shortcuts": [
+        [
+            "IObitUninstaler.exe",
+            "IObitUninstaller"
+        ]
+    ]
+}
