@@ -6,7 +6,7 @@
     "suggest": {
         ".NET Runtime/SDK": "main/dotnet"
     },
-    "url": "https://github.com/YerongAI/Office-Tool/releases/download/8.2.4.3/Office_Tool_with_runtime_v8.2.4.3.zip",
+    "url": "https://github.com/YerongAI/Office-Tool/releases/download/8.2.4.3/Office_Tool_v8.2.4.3.zip",
     "hash": "034f48bf13d87973b85ac6d53ab03ad29ba67f47aa83ae0aa886f8b46c7b5612",
     "extract_dir": "Office Tool",
     "shortcuts": [
@@ -23,7 +23,7 @@
         "github": "https://github.com/YerongAI/Office-Tool"
     },
     "autoupdate": {
-        "url": "https://github.com/YerongAI/Office-Tool/releases/download/$version/Office_Tool_with_runtime_v$version.zip",
+        "url": "https://github.com/YerongAI/Office-Tool/releases/download/$version/Office_Tool_v$version.zip",
         "hash": {
             "url": "https://github.com/YerongAI/Office-Tool/releases/latest",
             "regex": "Office_Tool_v[\\d.]+\\.zip</td>\\n<td [a-z\"=]+>([a-fA-F0-9]{64})"
