@@ -10,8 +10,8 @@
     },
     "shortcuts": [
         [
-            "AutoDeleteFileOnPCWechat.exe",
-            "AutoDeleteFileOnPCWechat"
+            "start.exe",
+            "CleanMyWechat"
         ]
     ]
 }
