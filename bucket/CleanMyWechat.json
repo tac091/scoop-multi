@@ -8,7 +8,6 @@
     "autoupdate": {
         "url": "https://github.com/blackboxo/CleanMyWechat/releases/download/v2.0/CleanMyWechat.zip"
     },
-    "innosetup": true,
     "bin": "start.exe",
     "shortcuts": [
         [
