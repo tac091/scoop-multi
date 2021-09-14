@@ -1,9 +1,10 @@
 {
     "version": "2.0.6.3",
     "url": "https://updates.duplicati.com/beta/duplicati-2.0.6.3_beta_2021-06-17-x64.msi",
+    "hash": "9a442ced41f0f9a0142618ce04b67d56c49d9e1c215a2ffcc13f8309428e3abc",
     "shortcuts": [
         [
-            "Duplicati.GUI.TrayIcon.exe",
+            "Duplicati 2/Duplicati.GUI.TrayIcon.exe",
             "Duplicati"
         ]
     ]
