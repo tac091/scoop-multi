@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/richshaw2015/dino-rss-electron/releases/download/v0.3.6/Dinosaur.Rss.0.3.6.x64.exe#/dl.7z",
-            "hash": "2baddf7047aa10e1c08eb0e19b1ecfef922f685c75494e4b83b2187b60d1c57e",
+            "hash": "a5b69a5bdd5a5ac4ad96d4e3adcd7b990285d8ceb8e96cea17f397d432548d2e",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
