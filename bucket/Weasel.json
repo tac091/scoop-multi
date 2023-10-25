@@ -15,9 +15,9 @@
     "uninstaller": "\"$dir\\uninstall.exe\"",
     "checkver": {
         "url": "https://github.com/rime/weasel/releases",
-        "regex": "/rime/weasel/releases/download/[\\d.]+/weasel-([\\d.]+)-installer.exe"
+        "regex": "https://github.com/rime/weasel/releases/download/[\\d.]+/weasel-([\\d.]+)-installer.exe"
     },
     "autoupdate": {
-        "url": "https://github.com/rime/weasel/releases/download/$version/weasel-$version-installer.exe#/dl.7z"
+        "url": "https://github.com/rime/weasel/releases/download/$matchHead/weasel-$version-installer.exe#/dl.7z"
     }
 }
